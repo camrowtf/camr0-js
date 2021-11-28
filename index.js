@@ -10,6 +10,8 @@ client.once('ready', () => {
     console.log('camr0 is online!');
 });
 
+// Creating commands smile :)
+
 client.on('interactionCreate', async interaction => {
     if (!interaction.isCommand()) return;
 
