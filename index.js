@@ -1,8 +1,8 @@
 // Require the necessary discord.js classes
 const { channelMention } = require('@discordjs/builders');
 const {Client, Intents, IntegrationApplication, Message } = require('discord.js');
-const { MessageEmbed } = require('discord.js');
-const { token } = require('./config.json');
+import { MessageEmbed } from 'discord.js';
+import { token } from './config.json';
 
 // Creating a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
