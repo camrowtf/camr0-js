@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes
-const { channelMention } = require('@discordjs/builders');
-const {Client, Intents, IntegrationApplication, Message } = require('discord.js');
+import { channelMention } from ('@discordjs/builders');
+import { Client, Intents, IntegrationApplication, Message } from 'discord.js';
 import { MessageEmbed } from 'discord.js';
 import { token } from './config.json';
 
