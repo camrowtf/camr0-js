@@ -11,4 +11,4 @@ client.once('ready', () => {
 });
 
 // Logging into discord with the client token
-client.login(token);
+client.login(token); 
